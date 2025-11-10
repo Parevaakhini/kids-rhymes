@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when the button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#D3D3D3"
+                android:endColor="#D3D3D3"
+                android:angle="45"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+    <!-- Default state when the button is not pressed -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#4CAF50"
+                android:endColor="#FFD700"
+                android:angle="45"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+</selector>
