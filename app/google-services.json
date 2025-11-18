@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233683786898",
+    "project_id": "kids-rhymes-44976",
+    "storage_bucket": "kids-rhymes-44976.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233683786898:android:c15a098729a6304f001a4b",
+        "android_client_info": {
+          "package_name": "com.example.kid_rhymes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK-V6C5WL1J-Qo9axsZD3jGbfRXYiRhIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
