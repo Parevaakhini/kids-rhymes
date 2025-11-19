@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         buttonNine = findViewById(R.id.button_nine);
         iv_stop = findViewById(R.id.iv_stop);
 
+       /* iv_stop.setOnClickListener(v -> {
+            throw new RuntimeException("Test Crash"); // Force a crash
+        });*/
         buttonOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
